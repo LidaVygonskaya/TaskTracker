@@ -14,5 +14,5 @@
     docker-compose up - для запуска контейнера и старта сервера.
     
     
-    docker-compose run web manage.py test --verbosity 2 - для запуска тестов.
+    docker-compose run web python manage.py test --verbosity 2 - для запуска тестов.
 
